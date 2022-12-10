@@ -58,6 +58,10 @@ of combining the large coins (those with value greater than one) such that
 their total value is less than the amount. The remaining amount is then filled
 by ones.
 
-!#
+This algorithm starts by counting the number of ways of adding to the amount
+using only fives. Next it counts the ways of using fives and tens. It continues
+doing so, finding all the ways of summing to the amount using the smallest coins
+possible at a given stage until it has counted all the ways of summing to the
+amount.
 
 !#

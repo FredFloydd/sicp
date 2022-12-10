@@ -53,7 +53,9 @@ lead to an incorrect calculation of the square root.
 
 (display (new-sqrt 0.000001))
 
-#! This new algorithm works by comparing the guess with the previous guess, and sees if they differ by less
+#!
+
+This new algorithm works by comparing the guess with the previous guess, and sees if they differ by less
 than one part in a thousand. This works better for small and large numbers because the tolerance now scales
 with the size of the root.
 
